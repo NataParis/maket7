@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,400&family=Dancing+Script&family=Jost:wght@400;600&family=Marck+Script&family=Playfair+Display:ital@1&family=Roboto:wght@100&display=swap');
+$font:  'Jost', sans-serif;
+$headcolor: rgb(16, 5, 62);
+$fontmid: 20px;
+$fontsmall: 14px;
+$textcolor: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    background-color: $headcolor;
+    width: 97%; 
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+.logo {
+        color: $textcolor;
+        font-family: $font;
+        font-size: $fontmid;
+        font-weight: bolder;
+        flex-basis: 25%;
+    }
+    .nav {
+        flex-basis: 70%;
+        justify-content: center;
+        display: flex;
+        padding-left: 7rem;
+        gap: 15px;
+      
+    }
+.nav a {
+    color: $textcolor;
+    text-decoration: none;
+    font-family: $font;
+   
+}
+.contact {
+    color: $textcolor;
+        font-family: $font;
+        font-size: $fontmid;
+        display: flex;
+        flex-direction: row;
+        padding-left: 30rem;
+    
+}
+}
+.mainblock {
+    background-color: $headcolor;
+    width: 97%; 
+    height: 500px;
+    color: $textcolor;
+    font-family: $font;
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr;
+    .ad {
+        display: grid;
+        grid-column: 2/3;
+ }
+   .school {
+    display: grid;
+    padding-left: 15rem;
+   grid-template-rows: repeat (3, 1fr);
+    align-content: center;
+    gap: 15px;
+   }
+   h1 {
+    padding-top: 1%;
+   }
+   p {
+    max-width: 380px;
+   }
+  }
+  .descript {
+    font-family: $font;
+    font-size: 16px;
+    max-width: 700px;
+    padding-left: 15rem;
+    padding-top: 3rem;
+   }
+   .numbers {
+    display: grid;
+    padding-left: 15rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    font-family: $font;
+    font-size: $fontsmall;
+    padding-top: 2rem;
+    align-content: center;
+    justify-content: center;
+  .num {
+    max-width: 200px;
+  }
+    h2 {
+        color: red;
+        font-size: 28px;
+    }
+   }
+   
+  
+

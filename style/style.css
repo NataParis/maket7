@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,400&family=Dancing+Script&family=Jost:wght@400;600&family=Marck+Script&family=Playfair+Display:ital@1&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(16, 5, 62);
+  width: 97%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  flex-basis: 25%;
+}
+header .nav {
+  flex-basis: 70%;
+  justify-content: center;
+  display: flex;
+  padding-left: 7rem;
+  gap: 15px;
+}
+header .nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+}
+header .contact {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30rem;
+}
+
+.mainblock {
+  background-color: rgb(16, 5, 62);
+  width: 97%;
+  height: 500px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  display: grid;
+  grid-template-columns: repeat 2, 1fr;
+  grid-template-rows: 1fr;
+}
+.mainblock .ad {
+  display: grid;
+  grid-column: 2/3;
+}
+.mainblock .school {
+  display: grid;
+  padding-left: 15rem;
+  grid-template-rows: repeat 3, 1fr;
+  align-content: center;
+  gap: 15px;
+}
+.mainblock h1 {
+  padding-top: 1%;
+}
+.mainblock p {
+  max-width: 380px;
+}
+
+.descript {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  max-width: 700px;
+  padding-left: 15rem;
+  padding-top: 3rem;
+}
+
+.numbers {
+  display: grid;
+  padding-left: 15rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  padding-top: 2rem;
+  align-content: center;
+  justify-content: center;
+}
+.numbers .num {
+  max-width: 200px;
+}
+.numbers h2 {
+  color: red;
+  font-size: 28px;
+}/*# sourceMappingURL=style.css.map */
